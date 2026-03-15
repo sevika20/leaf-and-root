@@ -1,0 +1,30 @@
+.footer {
+  background-color: #2b7a0b; /* dark green */
+  color: white;
+  text-align: center;
+  padding: 30px 20px; /* more spacing */
+  font-size: 1.2rem; /* increased font size */
+  margin-top: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* even lighter shadow */
+}
+
+.footer ul {
+  list-style-position: inside; /* moves dots inside, closer to text */
+  padding-left: 0;
+  margin: 10px 0;
+  text-align: center; /* center the bullets */
+}
+
+.footer li {
+  display: inline-block; /* display horizontally */
+  margin: 0 10px;
+}
+
+.footer a {
+  color: #a0d468; /* light green links */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+.payment-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.payment-container h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #2b7a0b;
+}
+
+.payment-options {
+  display:list-item;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.payment-options label {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pay-btn {
+  padding: 12px 25px;
+  background: #2b7a0b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pay-btn:hover {
+  background: #3e9c14;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+/* Make radio buttons smaller */
+.payment-option input[type="radio"] {
+  /* width: 14px; */
+  height: 10px;
+  cursor: pointer;
+  accent-color: #2e7d32; /* optional: adds green tint */
+  margin-right: 8px;
+}
+.payment-option input[type="radio"] {
+  width: 14px;   /*smaller width*/
+  height: 14px;  /* smaller height */
+  accent-color: #2e7d32; /* green styled radio */
+  cursor: pointer;
+}

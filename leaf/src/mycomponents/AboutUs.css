@@ -1,0 +1,67 @@
+.about-us-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  color: #2d2d2d;
+}
+
+.about-us-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-us-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: #2c7a7b; /* leafy green */
+}
+
+.about-us-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+
+
+.about-page {
+  max-width: 900px;           /* Limit width for readability */
+  margin: 50px auto;          /* Center the container horizontally */
+  padding: 40px;
+  background: #f0f8f5;        /* Light greenish background */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Soft shadow for depth */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;           /* Improve readability */
+  color: #2d3a2f;             /* Dark greenish text */
+}
+
+.about-page h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #1b2a1f;             /* Slightly darker for title */
+}
+
+.about-page p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: justify;         /* Justified for neatness */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .about-page h2 {
+    font-size: 2rem;
+  }
+
+  .about-page p {
+    font-size: 1rem;
+  }
+}

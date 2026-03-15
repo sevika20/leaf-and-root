@@ -1,0 +1,64 @@
+/* src/mycomponents/CheckoutPage.css */
+
+.checkout-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.checkout-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.checkout-container input,
+.checkout-container textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.checkout-container input:focus,
+.checkout-container textarea:focus {
+  border-color: #27ae60;
+  box-shadow: 0 0 5px rgba(39, 174, 96, 0.5);
+  outline: none;
+}
+
+.checkout-container textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.checkout-container button {
+  width: 100%;
+  padding: 14px;
+  background-color: #27ae60;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.checkout-container button:hover {
+  background-color: #219150;
+  transform: translateY(-2px);
+}
+
+.checkout-container p {
+  text-align: center;
+  color: #e74c3c;
+  margin-top: 20px;
+}

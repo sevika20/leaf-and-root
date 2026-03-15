@@ -1,0 +1,115 @@
+.plant-list-container {
+  padding: 20px;
+}
+
+.plant-list-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #2e7d32;
+}
+
+.plant-item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.plant-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background-color: #fff;
+}
+
+.plant-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+}
+
+.plant-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.plant-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.plant-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.plant-price {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #388e3c;
+}
+
+.plant-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.add-to-cart,
+.buy-now {
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  flex: 1;
+  text-align: center;
+}
+
+.add-to-cart {
+  background-color: #4caf50;
+  color: white;
+}
+
+.add-to-cart:hover {
+  background-color: #45a049;
+}
+
+.buy-now {
+  background-color: #ff9800;
+  color: white;
+}
+
+.buy-now:hover {
+  background-color: #e68a00;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .plant-buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+.buy-now {
+  background-color: #ff9800;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buy-now:hover {
+  background-color: #e68a00;
+}
+
